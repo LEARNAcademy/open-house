@@ -24,7 +24,7 @@
 ## Set-up
 - Open up Google Chrome
 - Right-click anywhere on any webpage
-- Click "inspect"
+- Click "Inspect"
 - Click "Console"
 <img src="./assets/console.png" height=200px>
 
