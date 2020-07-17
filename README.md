@@ -25,7 +25,8 @@
 - Open up Google Chrome
 - Right-click anywhere on any webpage
 - Click "inspect"
-- 
+- Click "Console"
+<img src="./assets/console.png" height=200px>
 
 ## Functions
 A function is a set of instructions detailing how to do a task. We can use the instructions to build something over and over again, in the same way that one blueprint can be used many times to build many buildings.
