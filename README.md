@@ -1,7 +1,7 @@
 # In-browser JavaScript Functions
 
 ## Overview
-- This lesson will guide you in creating a funciton that displays a greeting to whoever the user is
+- This lesson will guide you in creating JavaScript functions using the Chrome console
 
 ## Learning Objectives
 - Getting experience using the Chrome developer tools
