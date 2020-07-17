@@ -1,7 +1,7 @@
 # In-browser JavaScript Functions
 
 ## Overview
-- This lesson will guide you in creating a funciton that displays a greeting to whoever the user is. 
+- This lesson will guide you in creating a funciton that displays a greeting to whoever the user is
 
 ## Learning Objectives
 - Getting experience using the Chrome developer tools
@@ -89,4 +89,4 @@ multiplyBy2(3)
 
 ## Greeter Challenges
 1. Write a function that alerts the world "Hello"
-2. Write a function that asks the user for their name, then alerts them with a custom greeting that includes their name. Test this function with multiple names.
+2. Write a function that asks the user for their name, then alerts them with a custom greeting that includes their name. Test this function with multiple names
