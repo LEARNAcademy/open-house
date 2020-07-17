@@ -36,39 +36,53 @@ It is important to remember that there is a difference between a **function decl
 For example, look at this **function declaration:**
 
 ```javascript
-var greeting = () => {
-  alert("Hello!")
+var welcome = () => {
+  alert("Welcome to the internet!")
 }
 ````
 
 Notice the pieces of a function:
 
 1.  Assigning a function to a variable: `var`
-2.  The name of the function: `greeting`
+2.  The name of the function: `welcome`
 3.  Parentheses which can also take 'arguments': `()`
 4.  The fat arrow syntax: `=>`
 5.  Opening curly bracket: `{`
-6.  A set of instructions inside the curly brackets: `alert("Hello!")`
+6.  A set of instructions inside the curly brackets: `alert("Welcome to the internet!")`
 7.  Closing curly bracket: `}`
 
 
 Great! We have a function. But this function has not yet been used in our program because we do not have a function call.  A **function call** looks like this....
 
 ```javascript
-greeting()
---> Hello There
+welcome()
+--> Welcome to the internet!
 ```
 
 Notice that we used the same name that we gave our variable that points to the function. Calling the function by its name will tell the program to run through the steps declared in the greeting function.
 
-In order to see the output of our function, let's wrap our function call in a **console.log** like this..
+## Function Arguments
+Functions often require external information in order to run. Pieces of outside information that is used when a function runs are called **arguments** to that function.  We put the arguments inside the parentheses of the function.
 
+Let's build a multiplyBy2() function to make it a little more versatile by allowing it to take in a name as an argument.
 
 ```javascript
-const greeting = () => {
-  alert("Hello There")
+const multiplyBy2 = (number) => {
+  alert(number * 2)
 }
 
-console.log(greeting())
---> Hello There
+console.log(multiplyBy2(4))
+--> 8
+```
+Notice that in the function we created a **placeholder** called `number`. This allows us to pass any name we want through the function during the function call.
+
+The function is an encapsulated machine that can be called many times and give a unique output.
+
+```javascript
+multiplyBy2(7)
+--> 14
+multiplyBy2(10)
+--> 20
+multiplyBy2(3)
+--> 6
 ```
