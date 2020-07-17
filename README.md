@@ -1,4 +1,4 @@
-# JavaScript Browser Functions
+# In-browser JavaScript Functions
 
 ## Overview
 - This lesson will guide you in creating a funciton that displays a greeting to whoever the user is. 
