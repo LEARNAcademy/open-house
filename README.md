@@ -10,12 +10,12 @@
 
 ## Vocabulary
 - Chrome Developer Tools
-- function
-- argument
-- prompt
-- alert
-- variable
-- function call
+- Function
+- Argument
+- prompt()
+- alert()
+- Variable
+- Function call
 
 ## Additional Resources
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" target="_blank">JavaScript Functions</a>
