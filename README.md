@@ -86,3 +86,7 @@ multiplyBy2(10)
 multiplyBy2(3)
 --> 6
 ```
+
+## Greeter Challenges
+1. Write a function that alerts the world "Hello"
+2. Write a function that asks the user for their name, then alerts them with a custom greeting that includes their name. Test this function with multiple names.
