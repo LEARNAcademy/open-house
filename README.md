@@ -21,6 +21,12 @@
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function" target="_blank">JavaScript Functions</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var" target="_blank">JavaScript Variables</a>
 
+## Set-up
+- Open up Google Chrome
+- Right-click anywhere on any webpage
+- Click "inspect"
+- 
+
 ## Functions
 A function is a set of instructions detailing how to do a task. We can use the instructions to build something over and over again, in the same way that one blueprint can be used many times to build many buildings.
 
