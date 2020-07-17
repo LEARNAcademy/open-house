@@ -67,7 +67,7 @@ Functions often require external information in order to run. Pieces of outside 
 Let's build a multiplyBy2() function to make it a little more versatile by allowing it to take in a name as an argument.
 
 ```javascript
-const multiplyBy2 = (number) => {
+var multiplyBy2 = (number) => {
   alert(number * 2)
 }
 
