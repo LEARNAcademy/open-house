@@ -11,7 +11,6 @@
 ## Vocabulary
 - Chrome Developer Tools
 - Function
-- Argument
 - prompt()
 - alert()
 - Variable
@@ -61,31 +60,22 @@ welcome()
 
 Notice that we used the same name that we gave our variable that points to the function. Calling the function by its name will tell the program to run through the steps declared in the greeting function.
 
-## Function Arguments
+## Functions Using Variables
 Functions often require external information in order to run. Pieces of outside information that is used when a function runs are called **arguments** to that function.  We put the arguments inside the parentheses of the function.
 
-Let's build a multiplyBy2() function to make it a little more versatile by allowing it to take in a name as an argument.
+Let's build a nameLength() function to make it a little more versatile by allowing the user to give us some information.
 
 ```javascript
-var multiplyBy2 = (number) => {
-  alert(number * 2)
+var nameLength = () => {
+  userName = prompt("What is your name?")
+  alert("Your name is " + userName.length + " characters long.")
 }
 
-console.log(multiplyBy2(4))
+console.log(nameLength())
 --> 8
 ```
-Notice that in the function we created a **placeholder** called `number`. This allows us to pass any name we want through the function during the function call.
 
 The function is an encapsulated machine that can be called many times and give a unique output.
-
-```javascript
-multiplyBy2(7)
---> 14
-multiplyBy2(10)
---> 20
-multiplyBy2(3)
---> 6
-```
 
 ## Greeter Challenges
 1. Write a function that alerts the world "Hello"
